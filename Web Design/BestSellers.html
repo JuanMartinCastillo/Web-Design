@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE Best</title>
+	<link rel="stylesheet" type="text/css" href="Sbucks.css">
+	<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "theme2",
+		title:{
+			text: "The Best Coffes"              
+		},
+		animationEnabled: false,
+		data: [              
+		{type: "column",
+			dataPoints: [
+				{ label: "Americano",  y: 10  },
+				{ label: "Late", y: 15  },
+				{ label: "Mocha", y: 25  },
+				{ label: "Capuccino",  y: 50  },
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="header"> 
+
+		<div id="leftHeader">
+			<a href="index.html"><img height="150" src="images\Starbucks3.png"></a>
+		</div>
+
+		<div id="midHeader">
+			STARBUCKS
+		</div>
+
+		<div id="rightHeader">
+			<video autoplay loop muted height="200px" width="370px">
+			<source src ="videos\video.mp4" type="video/mp4">
+			</video>  
+		</div>
+	</div>
+
+
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+
+	<footer style="width: 1100; height: 200px">
+
+		<div>
+			<div id="rightFoot" style="width: 400px; display: inline-block;">
+				<p>FOLLOW US!</p>
+				<a href="https://www.facebook.com/Starbucks/"><img height="70" src="logos\facebook.png"></a>
+				<a href="https://twitter.com/Starbucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img height="70" src="logos\twitter.png"></a>
+				<a href="https://www.instagram.com/starbucks/?hl=en"><img height="70" src="logos\instagram.png"></a>
+				<a href="https://www.youtube.com/user/Starbucks"><img height="70" src="logos\youtube.png"></a>
+			</div>
+			<div id="links" style="width: 800px; display: inline-block;">
+				<a href="index.html">Home</a><br>
+				<a href="ContactUs.html">ContactUs</a><br>
+				<a href="AboutUs.html">AboutUS</a><br>
+				<a href="Products.html">Products & Service</a><br>
+				<a href="Gallery.html">Gallery</a><br>
+				<a href="BUY.html">BUY!!!</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

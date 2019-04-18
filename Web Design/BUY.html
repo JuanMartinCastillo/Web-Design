@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BUY!!!</title>
+	<link rel="stylesheet" type="text/css" href="Sbucks.css">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+	 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<script type="text/javascript" src = script.js></script>
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script>
+  	$( function() {
+    $( "#accordion" ).accordion();
+ 	 } );
+  </script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+ <script>
+function showBox() {
+$( "#yay" ).dialog();
+}
+</script>
+<script>
+  $( function() {
+   
+ $( "#yay" ).hide();  
+  } );
+  </script>
+<script>
+function goThere(){
+   window.location="DONE.html";
+}
+
+</script>
+
+</head>
+<body>
+	<div id="header"> 
+
+		<div id="leftHeader">
+			<a href="index.html"><img height="150" src="images\Starbucks3.png"></a>
+			<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+		</div>
+
+		<div id="midHeader">
+			STARBUCKS
+		</div>
+
+		<div id="rightHeader">
+			<video autoplay loop muted height="200px" width="370px">
+			<source src ="videos\video.mp4" type="video/mp4">
+			</video>  
+		</div>
+	</div>
+	<div>
+		<a href="BestSellers.html"><button id = best>See what people like the most!!!!</button></a>
+	</div>
+<br><br><br><br>
+<div id="accordion">
+  <h1>Customer details</h1>
+  <div>
+    <div>
+  <label for="first"><strong>First Name</strong></label>
+    <input id="first" type="text" placeholder="Rosa" name="firstName" required>
+    </div>
+  <div>  
+  <label for="last"><strong>Last Name</strong></label>
+    <input id="last" type="text" placeholder="Meltrozo" name="lastName" required>
+   </div>
+<div>
+  <label for="email"><strong>E-mail</strong></label>
+  <input id="email" type="email" placeholder="blabla1@gmail.com" name="E-mail" required><br>
+</div>
+<div>
+  <label for="phone"><strong>Phone Number</strong></label>
+  <input id="phone" type="text" placeholder="0834567893" name="Phone Number" required><br>
+</div>
+  </div>
+  <h1>Date</h1>
+  <div>
+    <div id = date>
+	<label>
+	<strong><h1>Date of delivery</h1></strong>
+	<p>Date: <input type="text" id="datepicker"></p>
+ 
+ </div>
+  </div>
+  <h1>Extra information</h1>
+  <div>
+    <div class = textArea>
+    <label class = textArea><strong><h1>Tell us what you want</strong></label> <br>
+  	<textarea  rows="5" cols="50" ></textarea>
+	</div>
+  </div>
+ </div>
+
+ 
+
+<button onclick="showBox()">Submit</button>
+<div class = box id="yay" title="HEY">
+  Congratulations.. you are almost done!
+  press OK to complete your order
+  <br>
+
+
+  <button onclick="goThere()">OK</button>
+  </div>
+
+ 
+
+
+ 
+  
+
+
+<footer style="width: 1100; height: 200px">
+
+		<div>
+			<div id="rightFoot" style="width: 400px; display: inline-block;">
+				<p>FOLLOW US!</p>
+				<a href="https://www.facebook.com/Starbucks/"><img height="70" src="logos\facebook.png"></a>
+				<a href="https://twitter.com/Starbucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img height="70" src="logos\twitter.png"></a>
+				<a href="https://www.instagram.com/starbucks/?hl=en"><img height="70" src="logos\instagram.png"></a>
+				<a href="https://www.youtube.com/user/Starbucks"><img height="70" src="logos\youtube.png"></a>
+			</div>
+			<div id="links" style="width: 800px; display: inline-block;">
+				<a href="index.html">Home</a><br>
+				<a href="AboutUs.html">AboutUS</a><br>
+				<a href="ContactUs.html">ContactUs</a><br>
+				<a href="Products.html">Products & Services</a><br>
+				<a href="Gallery.html">Gallery</a><br>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

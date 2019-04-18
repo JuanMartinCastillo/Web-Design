@@ -1,0 +1,252 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: rgb(1 ,113,67);
+}
+
+#header{
+	style =width: 1100px; height:210px
+}
+#leftHeader{
+	style = width: 200px; display: inline-block;
+}
+
+
+
+#midHeader{
+	style = width: 760px; display: inline-block;
+	margin-left: 40px;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	padding-bottom: 0%;
+}
+
+#rightHeader{
+	 style = width: 200px; display: inline-block;
+	 float: right;
+}
+
+#mainTop{
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-image:url(wallpaper.jpg);
+}
+
+#mainMiddle{
+	color: white;
+	font-size: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-image:url(wallpaper2.jpg);
+}
+
+#mainBottom{
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-image:url(wallpaper3.jpg);
+}
+
+p{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+#rightFoot{
+	text-align: center;
+}
+
+#links{
+	text-align: right;
+	font-size: 25px;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: black;
+}
+
+#galeryHeader{
+	color: white;
+	font-style: ;
+	font-size: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-image:url(pic2.jpg);
+}
+
+.galery{
+	width: 90%;
+	margin: auto;
+	margin-left: 25px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.galery li{
+	margin: 3px;
+}
+
+.galery img{
+
+	width: 320px;
+	height: 210px;
+}
+
+.interactiveGallery{
+	display: none;
+}
+
+.interactiveGallery:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.fullPicture{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullPicture a{
+	color: white;
+	font-size: 60px;
+	text-decoration: none;
+	margin: 0, 60px;
+}
+
+.fullPicture img{
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid white;
+}
+
+#closePic{
+	display: block;
+	background: black;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+
+}
+
+/*AboutUs styling*/
+#aboutUs{
+	background-image: url(firstPic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 20px;
+}
+
+#aboutUsContent p{
+	text-align: left;
+}
+
+#aboutUsContent p:nth-of-type(2){
+	margin-left: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+#aboutUsContent p:nth-of-type(3){
+	margin-left: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+.text:first-letter{
+	font-size: 50px;
+	font-style: italic;
+}
+
+#aboutUsContent2{
+	margin-right: 50px;
+	text-align: right;
+	font-size: 10px;
+	font-style: italic;
+}
+#contactUs{
+	style = width: 760px; display: inline-block;
+}
+
+#contactBack{
+	/*style= width: 400px ; display: inline-block;*/
+	background-image: url(pic2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+h1{
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	margin-left: 15px;
+}
+
+h2{
+	color: white;
+	font-size: 16px;
+	margin-left: 16px;
+}
+
+#product1{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+}
+
+#product2{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+
+#product3{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+}
+
+#product4{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+
+#product5{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+}
